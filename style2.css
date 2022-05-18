@@ -1,0 +1,131 @@
+body{
+	font-family: 'Century Gothic',Calibri, serif;
+	background-color: gray;
+	
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	margin-right: 200px;
+	margin-left: 200px;
+	font-weight: normal;
+	text-align: center;
+	background-color: darkgray;
+}
+footer{
+	height: 100px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #C5C5C5;
+	border-top: 2px solid #AAA;
+	padding-bottom: 20px;
+}
+h1{
+	background-color: darkgray;
+	font-size: 48px;
+}
+section h2{
+	text-decoration: underline;
+}
+nav{
+	background-color: #425632;
+	width: 100% auto;
+}
+nav ul{
+	 
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	float: left;
+	display: inline-block;
+	
+}
+nav a{
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 20px 30px;
+	color: #FFF;
+}
+.table{
+	display: table;
+	margin: 0 auto;
+} 
+.A:hover{
+	border-top: 5px solid #E4D566;
+	border-bottom: 5px solid #E4D566;
+	background-color: rgba(228, 213, 102, 0.25);
+}
+.salva:hover{
+	border-top: 5px solid #E05500;
+	border-bottom: 5px solid #E05500;
+	background-color: rgba(224, 85, 00, 0.25);
+}
+.reni:hover{
+	border-top: 5px solid #E9F956;
+	border-bottom: 5px solid #E9F956;
+	background-color: rgba(233, 249, 86, 0.25);
+}
+.fifi:hover{
+	border-top: 5px solid #ED44FF;
+	border-bottom: 5px solid #ED44FF;
+	background-color: rgba(237, 68, 255, 0.25);
+}
+.john:hover{
+	border-top: 5px solid #DEF567;
+	border-bottom: 5px solid #DEF567;
+	background-color: rgba(221, 245, 103, 0.25);
+}
+.gogo:hover{
+	border-top: 5px solid #D0E5ED;
+	border-bottom: 5px solid #D0E5ED;
+	background-color: rgba(208, 229, 237, 0.25);
+}
+.pacome:hover{
+	border-top: 5px solid #E44026;
+	border-bottom: 5px solid #E44026;
+	background-color: rgba(232, 64, 36, 0.25);
+}
+.gigi:hover{
+	border-top: 5px solid #F490A0;
+	border-bottom: 5px solid #F490A0;
+	background-color: rgba(244, 142, 160, 0.25);
+}
+nav li:hover a{
+	padding: 10px 30px 20px 30px;
+}
+.sec{
+	margin: 0px 10%;
+}
+.left{
+	float: left;
+	width: 40%;
+}
+.right{
+	float: left;
+	width: 60%;
+}
+.sec::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+@media screen and (max-width: 780px){
+	header{
+		height: 50px;
+	}
+	h1{
+		font-size: 28px;
+		margin: 20px;
+	}
+	nav li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	nav li:hover a{
+		padding: 5px 10px 10px 10px;
+	}
+
+}

@@ -1,0 +1,22 @@
+.container{
+    border: 5px #ffcc5c solid;
+    display: flex;
+    /*flex-direction: column;*/
+    
+    /*justify-content: space-around;*/
+}
+.search{
+    /*margin-left: auto;*/
+}
+.logout{
+    /*margin-left: auto;*/
+
+}
+.container > div{
+    flex: 1;
+}
+.container .search{
+    flex: 2;
+}
+
+ 
